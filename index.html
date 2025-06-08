@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal - .Modo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #333; /* A more neutral dark color */
+            letter-spacing: -1px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #1a73e8;
+            padding: 8px 20px;
+            margin: 0 10px;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        nav a:hover, nav a.active {
+            background-color: #e8f0fe;
+            color: #174ea6;
+        }
+        section {
+            margin-bottom: 40px;
+            padding-top: 20px; /* For anchor link offset */
+        }
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #444;
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        ul, ol {
+            margin-bottom: 1em;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 0.5em;
+        }
+        strong {
+            font-weight: bold;
+        }
+        em {
+            font-style: italic;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-family: "Courier New", Courier, monospace;
+        }
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        .last-updated {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #1a73e8;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transform: translateY(100px);
+            border: none;
+            cursor: pointer;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        /* Basic responsiveness */
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+                padding: 15px;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>.Modo</h1>
+            <p>Privacy Policy & Terms and Conditions</p>
+        </header>
+
+        <nav>
+            <a href="#privacy" onclick="setActive(this)">Privacy Policy</a>
+            <a href="#terms" onclick="setActive(this)">Terms and Conditions</a>
+        </nav>
+
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p class="last-updated">Last Updated: December 18, 2025</p>
+            
+            <p>This privacy policy applies to the .Modo app (hereby referred to as "Application") for mobile devices that was created by Mikail Yenigün (hereby referred to as "Service Provider") as a Freemium service. This service is intended for use "AS IS".</p>
+
+            <h3>1. What information does the Application obtain and how is it used?</h3>
+
+            <h4>Personal Data We Collect</h4>
+
+            <p><strong>Diary Content and Stories</strong></p>
+            <ul>
+                <li>Your diary entries, stories, and personal content you create within the app</li>
+                <li>Page titles and rich text content including images you upload</li>
+                <li>Story metadata such as dates, feelings, tags, and preferences</li>
+                <li>Draft content and revision history</li>
+            </ul>
+
+            <p><strong>Account Information</strong></p>
+            <ul>
+                <li>If you choose to sign in with your Google account: your name, email address, and profile picture URL</li>
+                <li>Device-generated user IDs for app functionality</li>
+                <li>Preferences and settings you configure within the app</li>
+            </ul>
+
+            <p><strong>Usage and Analytics Data</strong></p>
+            <ul>
+                <li>App usage patterns and interaction data through Firebase Analytics</li>
+                <li>Screen views, feature usage, and app performance metrics</li>
+                <li>Crash reports and error logs through Firebase Crashlytics</li>
+                <li>Search terms and user interface interactions</li>
+            </ul>
+
+            <p><strong>Device and Technical Information</strong></p>
+            <ul>
+                <li>Device identifiers and hardware information</li>
+                <li>Operating system version and app version</li>
+                <li>IP address and general location information</li>
+                <li>Network connectivity status</li>
+            </ul>
+
+            <p><strong>AI Analysis Data</strong> (Premium Feature)</p>
+            <ul>
+                <li>When you use our AI diary analysis feature powered by Google's Gemini AI, your diary content is processed to provide mood analysis and insights</li>
+                <li>Analysis results including mood scores, factors, and generated insights</li>
+                <li>Usage of this feature requires a premium subscription</li>
+            </ul>
+
+            <p><strong>Financial and Subscription Data</strong></p>
+            <ul>
+                <li>Subscription status and purchase history through RevenueCat and Apple/Google app stores</li>
+                <li>Transaction IDs and payment verification data</li>
+                <li>Trial usage and subscription expiration dates</li>
+            </ul>
+
+            <h4>How We Use Your Information</h4>
+
+            <p><strong>Core App Functionality</strong></p>
+            <ul>
+                <li>Storing and syncing your diary entries across devices</li>
+                <li>Providing search functionality within your content</li>
+                <li>Enabling backup and restore features</li>
+                <li>Managing your preferences and settings</li>
+            </ul>
+
+            <p><strong>AI-Powered Features</strong> (Premium)</p>
+            <ul>
+                <li>Processing your diary content through Google's Gemini AI for mood analysis</li>
+                <li>Generating insights about emotional patterns and factors affecting your wellbeing</li>
+                <li>Providing personalized analytics and trends</li>
+            </ul>
+
+            <p><strong>Service Improvement</strong></p>
+            <ul>
+                <li>Analyzing app usage to improve features and user experience</li>
+                <li>Debugging and fixing technical issues</li>
+                <li>Understanding which features are most valuable to users</li>
+            </ul>
+
+            <p><strong>Subscription Management</strong></p>
+            <ul>
+                <li>Processing and managing your premium subscriptions</li>
+                <li>Providing customer support for billing issues</li>
+                <li>Fraud prevention and payment verification</li>
+            </ul>
+
+            <h3>2. Does the Application collect precise real time location information of the device?</h3>
+
+            <p>The Application may collect location information in the following ways:</p>
+            <ul>
+                <li>General location from your IP address for service provision</li>
+                <li>Home or Work addresses from your Google Account if connected</li>
+                <li>Precise location data if you grant permission, used for location-based features</li>
+            </ul>
+
+            <p>Location data is never stored permanently in your diary content and is only used for immediate functionality.</p>
+
+            <h3>3. Do third parties see and/or have access to information obtained by the Application?</h3>
+
+            <p><strong>Google Services</strong></p>
+            <ul>
+                <li><strong>Firebase Analytics & Crashlytics</strong>: Non-personally identifiable usage and performance data</li>
+                <li><strong>Google Drive</strong>: If you choose to sync, your encrypted diary data is stored in your private Google Drive folder</li>
+                <li><strong>Gemini AI</strong>: Your diary content is processed for analysis (Premium feature only)</li>
+            </ul>
+
+            <p><strong>RevenueCat</strong></p>
+            <ul>
+                <li>Subscription management and payment processing data</li>
+                <li>Purchase verification and fraud prevention</li>
+            </ul>
+
+            <p><strong>Important Protections</strong></p>
+            <ul>
+                <li>Your diary content is only processed by Google's Gemini AI when you explicitly use the analysis feature</li>
+                <li>All data sent to Gemini AI is disconnected from your Google Account before processing</li>
+                <li>We never share personally identifiable information for advertising purposes</li>
+                <li>Your private diary content is never used for AI model training unless you provide specific feedback</li>
+            </ul>
+
+            <h3>4. What are my opt-out rights?</h3>
+
+            <p><strong>Data Collection Controls</strong></p>
+            <ul>
+                <li>You can disable AI analysis features at any time</li>
+                <li>Turn off automatic analysis in app settings</li>
+                <li>Manage Google account connections and permissions</li>
+                <li>Control location sharing preferences</li>
+            </ul>
+
+            <p><strong>Data Deletion</strong></p>
+            <ul>
+                <li>Delete individual diary entries or analysis results</li>
+                <li>Clear all stored data by uninstalling the app</li>
+                <li>Request account deletion by contacting us</li>
+                <li>Revoke Google Drive access to stop cloud syncing</li>
+            </ul>
+
+            <p><strong>Subscription Cancellation</strong></p>
+            <ul>
+                <li>Cancel subscriptions through your app store account</li>
+                <li>Data processing for AI features stops immediately upon cancellation</li>
+            </ul>
+
+            <h3>5. Data Retention</h3>
+
+            <ul>
+                <li><strong>Your Content</strong>: Stored locally and in your Google Drive (if syncing enabled) until you delete it</li>
+                <li><strong>AI Analysis Data</strong>: Retained for up to 18 months if Gemini Apps Activity is enabled; 72 hours if disabled</li>
+                <li><strong>Analytics Data</strong>: Aggregated, non-personal usage data retained indefinitely</li>
+                <li><strong>Subscription Data</strong>: Maintained for legal and tax requirements (typically 7 years)</li>
+            </ul>
+
+            <h3>6. Children</h3>
+
+            <p><strong>Age Requirements</strong></p>
+            <ul>
+                <li>The Application is not intended for children under 13</li>
+                <li>Users between 13-17 require parental consent for AI features</li>
+                <li>We do not knowingly collect data from children under 13</li>
+            </ul>
+
+            <p><strong>COPPA Compliance</strong></p>
+            <ul>
+                <li>AI analysis features are disabled by default for users under 18</li>
+                <li>No behavioral tracking or profiling of minors</li>
+                <li>Parental controls available for family accounts</li>
+            </ul>
+
+            <p>If you believe a child under 13 has provided personal information, please contact us immediately at mikail.yenigun@icloud.com.</p>
+
+            <h3>7. Security</h3>
+
+            <p><strong>Data Protection Measures</strong></p>
+            <ul>
+                <li>End-to-end encryption for data stored in Google Drive</li>
+                <li>Secure transmission protocols (HTTPS/TLS)</li>
+                <li>Local device encryption using platform security features</li>
+                <li>Regular security assessments and updates</li>
+            </ul>
+
+            <p><strong>AI Processing Security</strong></p>
+            <ul>
+                <li>Data sent to Gemini AI is anonymized before processing</li>
+                <li>No personal identifiers are included in AI requests</li>
+                <li>Processing occurs on Google's secure infrastructure with enterprise-grade protection</li>
+            </ul>
+
+            <h3>8. International Data Transfers</h3>
+
+            <p>When using our AI features, your diary content may be processed on Google's servers in various countries. This processing is governed by:</p>
+            <ul>
+                <li>Google's enterprise data protection agreements</li>
+                <li>Appropriate safeguards under GDPR Article 46</li>
+                <li>Standard contractual clauses for international transfers</li>
+            </ul>
+
+            <h3>9. Your Rights (GDPR/CCPA)</h3>
+
+            <ul>
+                <li><strong>Access</strong>: Request a copy of your personal data</li>
+                <li><strong>Correction</strong>: Update or correct your information</li>
+                <li><strong>Deletion</strong>: Request deletion of your account and data</li>
+                <li><strong>Portability</strong>: Export your diary data in a readable format</li>
+                <li><strong>Objection</strong>: Opt-out of AI processing or analytics</li>
+                <li><strong>Restriction</strong>: Limit how we process your data</li>
+            </ul>
+
+            <p>To exercise these rights, contact us at mikail.yenigun@icloud.com.</p>
+
+            <h3>10. Changes</h3>
+
+            <p>This Privacy Policy may be updated from time to time for any reason. We will notify you of any material changes by updating the "Effective Date" and providing notice within the app. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+            <h3>11. Contact Us</h3>
+
+            <p>If you have any questions regarding privacy while using the Application, or have questions about our practices, please contact us via email at mikail.yenigun@icloud.com.</p>
+
+            <p><strong>Data Protection Officer</strong>: For GDPR-related inquiries, contact mikail.yenigun@icloud.com</p>
+
+            <p><strong>Service Provider Information</strong>:<br>
+            Mikail Yenigün<br>
+            Email: mikail.yenigun@icloud.com</p>
+
+        </section>
+
+        <hr style="margin: 40px 0;">
+
+        <section id="terms">
+            <h2>Terms and Conditions</h2>
+            <p class="last-updated">Last Updated: December 18, 2025</p>
+
+            <p>These terms and conditions apply to the .Modo app (hereby referred to as "Application") for mobile devices that was created by Mikail Yenigün (hereby referred to as "Service Provider") as a Freemium service.</p>
+
+            <h3>1. Acceptance of Terms</h3>
+
+            <p>By downloading, installing, or using the Application, you automatically agree to these terms and conditions. It is strongly advised that you thoroughly read and understand these terms prior to using the Application. If you do not agree to these terms, please do not use the Application.</p>
+
+            <h3>2. License and Usage Rights</h3>
+
+            <p><strong>2.1 Limited License</strong><br>
+            We grant you a limited, non-exclusive, non-transferable, revocable license to use the Application on your personal devices in accordance with these Terms.</p>
+
+            <p><strong>2.2 Restrictions</strong><br>
+            You may not:</p>
+            <ul>
+                <li>Copy, modify, or create derivative works of the Application</li>
+                <li>Reverse engineer, decompile, or attempt to extract source code</li>
+                <li>Remove, alter, or obscure any proprietary notices</li>
+                <li>Use the Application for any illegal or unauthorized purpose</li>
+                <li>Share your account credentials with others</li>
+            </ul>
+
+            <p><strong>2.3 Updates and Modifications</strong><br>
+            The Service Provider reserves the right to modify the Application or charge for services at any time and for any reason. Any charges for the Application or its services will be clearly communicated to you.</p>
+
+            <h3>3. User Content and Data</h3>
+
+            <p><strong>3.1 Your Content</strong><br>
+            You retain ownership of all diary entries, stories, and personal content you create within the Application ("User Content"). By using the Application, you grant us a limited license to store, sync, and process your User Content solely to provide the service.</p>
+
+            <p><strong>3.2 AI Analysis</strong><br>
+            When you use our premium AI analysis features powered by Google's Gemini AI:</p>
+            <ul>
+                <li>Your diary content is processed to provide mood analysis and insights</li>
+                <li>Data is anonymized before processing</li>
+                <li>Analysis results are stored in your account</li>
+                <li>You can delete analysis data at any time</li>
+            </ul>
+
+            <p><strong>3.3 Content Responsibility</strong><br>
+            You are solely responsible for your User Content and must ensure you have the right to share any content you include in your diary entries.</p>
+
+            <h3>4. Premium Subscription Services</h3>
+
+            <p><strong>4.1 Subscription Plans</strong><br>
+            The Application offers premium subscription plans that provide access to AI analysis features and other premium functionality. Subscription options include:</p>
+            <ul>
+                <li>Monthly subscription</li>
+                <li>Annual subscription (with savings)</li>
+            </ul>
+
+            <p><strong>4.2 Subscription Management</strong></p>
+            <ul>
+                <li>Subscriptions are managed through your Apple App Store or Google Play Store account</li>
+                <li>Payment processing is handled by RevenueCat and the respective app stores</li>
+                <li>You can cancel your subscription at any time through your app store account settings</li>
+            </ul>
+
+            <p><strong>4.3 Free Trial</strong><br>
+            New users may be eligible for a free trial period. Trial periods automatically convert to paid subscriptions unless cancelled before the trial expires.</p>
+
+            <p><strong>4.4 Billing and Renewal</strong></p>
+            <ul>
+                <li>Subscriptions automatically renew unless cancelled</li>
+                <li>Your account will be charged 24 hours before the current subscription period ends</li>
+                <li>Subscription fees are non-refundable except as required by law</li>
+            </ul>
+
+            <p><strong>4.5 Premium Feature Access</strong><br>
+            Upon cancellation of your subscription:</p>
+            <ul>
+                <li>Access to premium AI analysis features will be discontinued</li>
+                <li>Previously generated analysis data will remain accessible for viewing</li>
+                <li>Core diary functionality remains available</li>
+            </ul>
+
+            <h3>5. Data Privacy and Security</h3>
+
+            <p><strong>5.1 Data Collection</strong><br>
+            Our collection and use of your personal information is governed by our Privacy Policy, which is incorporated into these Terms by reference.</p>
+
+            <p><strong>5.2 Google Services Integration</strong><br>
+            The Application integrates with Google services including:</p>
+            <ul>
+                <li>Google Drive for cloud backup (optional)</li>
+                <li>Firebase for analytics and crash reporting</li>
+                <li>Gemini AI for diary analysis (premium feature)</li>
+            </ul>
+
+            <p><strong>5.3 Data Security</strong><br>
+            We implement appropriate security measures to protect your data, including encryption for cloud storage and secure transmission protocols.</p>
+
+            <h3>6. Third-Party Services</h3>
+
+            <p><strong>6.1 Included Services</strong><br>
+            The Application uses the following third-party services:</p>
+            <ul>
+                <li>Google Play Services / Apple Services</li>
+                <li>Firebase Analytics and Crashlytics</li>
+                <li>RevenueCat for subscription management</li>
+                <li>Google Gemini AI for analysis features</li>
+                <li>Google Drive for optional cloud sync</li>
+            </ul>
+
+            <p><strong>6.2 Third-Party Terms</strong><br>
+            Your use of integrated third-party services is subject to their respective terms and conditions:</p>
+            <ul>
+                <li><a href="https://policies.google.com/terms" target="_blank">Google Play Services Terms</a></li>
+                <li><a href="https://www.revenuecat.com/terms/" target="_blank">RevenueCat Terms of Service</a></li>
+                <li><a href="https://ai.google.dev/terms" target="_blank">Google AI Terms</a></li>
+            </ul>
+
+            <h3>7. Age Requirements and Children's Privacy</h3>
+
+            <p><strong>7.1 Minimum Age</strong><br>
+            The Application is not intended for children under 13. Users must be at least 13 years old to create an account.</p>
+
+            <p><strong>7.2 Minors (13-17)</strong><br>
+            Users between 13-17 years old:</p>
+            <ul>
+                <li>Must have parental consent to use the Application</li>
+                <li>Have AI analysis features disabled by default</li>
+                <li>Require parental approval to enable premium features</li>
+            </ul>
+
+            <p><strong>7.3 COPPA Compliance</strong><br>
+            We comply with the Children's Online Privacy Protection Act (COPPA) and do not knowingly collect personal information from children under 13.</p>
+
+            <h3>8. Acceptable Use Policy</h3>
+
+            <p><strong>8.1 Prohibited Content</strong><br>
+            You may not use the Application to create, store, or share content that:</p>
+            <ul>
+                <li>Is illegal, harmful, threatening, or abusive</li>
+                <li>Violates any intellectual property rights</li>
+                <li>Contains malware or malicious code</li>
+                <li>Harasses or bullies others</li>
+            </ul>
+
+            <p><strong>8.2 Platform Responsibility</strong><br>
+            You are responsible for maintaining the security of your device and access to the Application. We strongly advise against jailbreaking or rooting your device, as this may compromise security and app functionality.</p>
+
+            <h3>9. Internet Connectivity and Data Usage</h3>
+
+            <p><strong>9.1 Connectivity Requirements</strong><br>
+            Some Application features require an active internet connection (Wi-Fi or mobile data). We are not responsible if the Application does not function at full capacity due to lack of internet access.</p>
+
+            <p><strong>9.2 Data Charges</strong><br>
+            You are responsible for any mobile data charges incurred while using the Application. If you are not the bill payer for your device, please obtain permission before using the Application.</p>
+
+            <h3>10. Service Availability</h3>
+
+            <p><strong>10.1 Service Provision</strong><br>
+            While we strive to ensure the Application is updated and accurate at all times, we rely on third parties to provide certain services. We cannot guarantee uninterrupted service availability.</p>
+
+            <p><strong>10.2 Updates and Compatibility</strong><br>
+            The Application may require updates to remain compatible with your operating system. We do not guarantee that we will always update the Application for compatibility with every device or OS version.</p>
+
+            <p><strong>10.3 Service Termination</strong><br>
+            We may terminate service at any time without notice. Upon termination:</p>
+            <ul>
+                <li>Your rights under these Terms will end</li>
+                <li>You must cease using the Application</li>
+                <li>You may delete the Application from your device</li>
+            </ul>
+
+            <h3>11. Intellectual Property</h3>
+
+            <p><strong>11.1 Our Rights</strong><br>
+            All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.</p>
+
+            <p><strong>11.2 Content Ownership</strong><br>
+            You retain ownership of your User Content. We do not claim ownership of your diary entries or personal content.</p>
+
+            <h3>12. Disclaimers and Limitations</h3>
+
+            <p><strong>12.1 Service Disclaimer</strong><br>
+            The Application is provided "AS IS" without warranties of any kind, whether express or implied.</p>
+
+            <p><strong>12.2 AI Analysis Disclaimer</strong><br>
+            AI analysis features are provided for informational purposes only and should not be considered as:</p>
+            <ul>
+                <li>Medical advice or diagnosis</li>
+                <li>Professional counseling or therapy</li>
+                <li>Substitute for professional mental health treatment</li>
+            </ul>
+
+            <p><strong>12.3 Limitation of Liability</strong><br>
+            We accept no liability for any loss, direct or indirect, that you experience as a result of relying on the Application's functionality, including AI analysis results.</p>
+
+            <h3>13. Governing Law and Dispute Resolution</h3>
+
+            <p><strong>13.1 Governing Law</strong><br>
+            These Terms are governed by the laws of the jurisdiction where the Service Provider is located.</p>
+
+            <p><strong>13.2 Dispute Resolution</strong><br>
+            Any disputes arising from these Terms or your use of the Application will be resolved through binding arbitration, except where prohibited by law.</p>
+
+            <h3>14. Changes to Terms</h3>
+
+            <p><strong>14.1 Modifications</strong><br>
+            The Service Provider may periodically update these Terms and Conditions. You will be notified of any material changes through the Application or via email.</p>
+
+            <p><strong>14.2 Continued Use</strong><br>
+            Your continued use of the Application after changes to these Terms constitutes acceptance of the new Terms.</p>
+
+            <p><strong>14.3 Effective Date</strong><br>
+            These terms and conditions are effective as of December 18, 2025.</p>
+
+            <h3>15. Contact Information</h3>
+
+            <p>If you have any questions or suggestions about these Terms and Conditions, please contact the Service Provider at:</p>
+
+            <p><strong>Email</strong>: mikail.yenigun@icloud.com</p>
+
+            <p><strong>Service Provider</strong>: Mikail Yenigün</p>
+
+            <p>For technical support or account-related inquiries, please use the same contact information.</p>
+
+            <hr style="margin: 20px 0;">
+
+            <p><strong>Note</strong>: By using the Application, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions and our Privacy Policy.</p>
+
+        </section>
+
+        <footer>
+            <p>© <span id="currentYear"></span> .Modo. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <button class="back-to-top" title="Back to top">&uarr;</button>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Simple active state for nav links (optional, enhances UX)
+        function setActive(element) {
+            // Remove 'active' class from all nav links
+            var navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(function(link) {
+                link.classList.remove('active');
+            });
+            // Add 'active' class to the clicked link
+            element.classList.add('active');
+        }
+
+        // Set active tab based on hash on page load
+        window.addEventListener('DOMContentLoaded', (event) => {
+            if (window.location.hash) {
+                const activeLink = document.querySelector('nav a[href="' + window.location.hash + '"]');
+                if (activeLink) {
+                    setActive(activeLink);
+                } else {
+                    // Default to privacy if hash is invalid or not found
+                    const privacyLink = document.querySelector('nav a[href="#privacy"]');
+                    if (privacyLink) setActive(privacyLink);
+                }
+            } else {
+                // Default to privacy if no hash
+                const privacyLink = document.querySelector('nav a[href="#privacy"]');
+                if (privacyLink) setActive(privacyLink);
+            }
+        });
+         // Update active tab on hash change (e.g. back/forward browser buttons)
+        window.addEventListener('hashchange', () => {
+            if (window.location.hash) {
+                const activeLink = document.querySelector('nav a[href="' + window.location.hash + '"]');
+                if (activeLink) {
+                    setActive(activeLink);
+                }
+            }
+        });
+
+        // Back to top button logic
+        const backToTopButton = document.querySelector(".back-to-top");
+
+        if (backToTopButton) {
+            window.addEventListener("scroll", () => {
+                if (window.pageYOffset > 300) { // Show button after scrolling 300px
+                    backToTopButton.classList.add("show");
+                } else {
+                    backToTopButton.classList.remove("show");
+                }
+            });
+
+            backToTopButton.addEventListener("click", function(e) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            });
+        }
+    </script>
+</body>
+</html>
